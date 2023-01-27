@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+h1 {
+  margin: 20px 0;
+}
+form {
+  margin: 20px 0;
+}
+button {
+  border: none;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+input {
+  padding: 8px;
+  border-radius: 10px;
+}
+.lista {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.lista-ordenada {
+  display: flex;
+  justify-content: center;
+}
+li {
+  display: block;
+  margin-bottom: 15px;
+}
+.strike{
+  text-decoration: line-through;
+}
