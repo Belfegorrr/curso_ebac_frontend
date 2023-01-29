@@ -10,6 +10,7 @@
   flex-direction: column;
 }
 h1 {
+  font-size: 44px;
   margin: 20px 0;
 }
 form {
@@ -20,10 +21,11 @@ button {
   border-radius: 10px;
   background-color: black;
   color: white;
-  padding: 10px;
+  padding: 20px;
 }
 input {
-  padding: 8px;
+  width: 400px;
+  padding: 15px;
   border-radius: 10px;
 }
 .lista {
@@ -32,12 +34,15 @@ input {
   flex-direction: column;
 }
 .lista-ordenada {
+  background-color: rgb(108, 180, 120);
   display: flex;
   justify-content: center;
 }
 li {
   display: block;
   margin-bottom: 15px;
+  cursor: pointer;
+  font-size: 24px;
 }
 .strike{
   text-decoration: line-through;
