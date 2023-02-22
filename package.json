@@ -1,0 +1,23 @@
+{
+  "name": "ebac-exe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass exercicio_sass/source/main.scss exercicio_sass/build/main.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Belfegorrr/curso_ebac_frontend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Belfegorrr/curso_ebac_frontend/issues"
+  },
+  "homepage": "https://github.com/Belfegorrr/curso_ebac_frontend#readme",
+  "devDependencies": {
+    "sass": "^1.58.1"
+  }
+}
