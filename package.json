@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "gulp": "gulp",
     "sass": "sass exercicio_sass/source/main.scss exercicio_sass/build/main.css --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,6 +19,7 @@
   },
   "homepage": "https://github.com/Belfegorrr/curso_ebac_frontend#readme",
   "devDependencies": {
+    "gulp": "^4.0.2",
     "sass": "^1.58.1"
   }
 }
